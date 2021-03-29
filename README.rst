@@ -1,4 +1,17 @@
-Events 
+HOPEFULLY TEMPORARY WORKAROUND.
+-------------------------------
+
+There are no wheel files in the original distribution yet. I need these for creating my windows installer
+with pynsist. As soon as wheels are distributed in the original package, this will be removed.
+
+To create a wheel:
+
+```
+python setup.py bdist_wheel
+```
+
+
+Events
 ------
 
 The C# language provides a handy way to declare, subscribe to and fire events.

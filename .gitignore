@@ -34,6 +34,7 @@ pip-log.txt
 Include
 Lib
 Scripts
+venv
 
 #OSX
 .Python
@@ -41,3 +42,6 @@ Scripts
 
 #Sphinx
 _build
+
+#Pycharm
+.idea
